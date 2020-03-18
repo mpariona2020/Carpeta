@@ -1,0 +1,30 @@
+MIS APUNTES!!
+
+“git init” es el comando utilizado para arrancar git y crear el entorno de trabajo o directorio.
+“Staging” es el area donde se envian los cambios, luego de haber utilizado el comando “git add”, estos se almacenan en la memoria RAM.
+“git add” es el comando utilizado para agregar los cambios realizados al “Staging”.
+“git commit” es el comando utilizado para agregar los cambios realizados al repositorio. Se utiliza "git commit -m "mensaje que quieres dejar en el commit"
+El “Master” es practicamente el repositorio principal de tu proyecto.
+“git status” es el comando utilizado para verificar en que estado se encuentra nuestro archivo en el momento.
+“git reset head” se utiliza para sacar de memoria RAM o del Staging los archivos agragados con cambios. Es parecido al comando “git rm --cached”
+“git rm --cached” se utiliza para mover el archivo del Staging al estado Unstaged.
+“git rm --force” se utiliza para eliminar el archivo de git y de disco.
+
+Cuando utilizas “–” en un comando, ese comando se debe ser una palabra. el comando para utilizar letras es “-”.
+“git config” se utiliza para ver una lista de los comandos que funsionan con git config.
+El comando “git config --list” trae una lista de las configuraciones que ya estan establecidas.
+El comando “git config --listo --show-origin” te muestra las carpetas en donde puedes acceder a las configuraciones y realizarlas manualmente.
+“git config --global user.name” cambia o agrega el nombre de usuario de git.
+“git config --global user.email” cambia o agrega el nombre del email de git.
+
+“git show” es el comando utilizado para hacer una vista los commits.
+“git diff” es el comando utilizado para hacer una vista de dos commits y diferenciarlo uno del otro. en este podemos ver los cambios realizado de uno en comparacion del otro.
+“git log” es el comando utilizado para visualizar todos los commit realizado en un archivo.
+
+“git reset +ID COMMIT --hard” se utiliza para borrar los commit, y este se sutiliza para volver al pasado, ya que si seleccionas un commit, te devuelve hacia el commit que seleccionaste.
+“git log --stat” es el comando para visualizar los cambios realizados en cada commit.
+"git checkout +ID COMMIT +“NOMBRE DEL ARCHIVO”, es el comando para regresar a un commit rea;izadp en el pasado.
+"git commit master +“NOMBRE DEL ARCHIVO”, es el comando para regresar a loss ultimos cambios realizados.
+NOTA: Si quieres realizar una actualizacion puedes utilizar checkout y luego sobre escribir el archivo para hacer un nuevo commit.
+
+“git branch” te permite realizar una copia del archivo en el repositorio. se utiliza “git checkout + NOMBRE DE LA COPIA” para cambiar de la copia al archivo master.
