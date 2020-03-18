@@ -1,4 +1,4 @@
-MIS APUNTES!!  2020-03
+MIS APUNTES!!  2020-03 // 2020-03-18
 
 “git init” es el comando utilizado para arrancar git y crear el entorno de trabajo o directorio.
 “Staging” es el area donde se envian los cambios, luego de haber utilizado el comando “git add”, estos se almacenan en la memoria RAM.
